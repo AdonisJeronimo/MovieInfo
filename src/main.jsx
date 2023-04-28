@@ -5,9 +5,9 @@ import { BrowserRouter,Routes,Route } from "react-router-dom";
 import App from "./App";
 import './index.css'
 
-import Home from "./pages/Home";
 import Movie from "./pages/movie"; // aqui era para aceitar Movie com M maiusculo
-import Search from "./pages/Search";
+import Search from "./pages/search";
+import Home from "./pages/home";
 
 ReactDOM.createRoot(document.getElementById('root')).render(
     <React.StrictMode>
