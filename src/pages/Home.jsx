@@ -19,6 +19,7 @@ const Home = () => {
     useEffect(() => {
         const topRateUrl = `${moviesURL}top_rated?${apiKey}&language=pt-BR`;
 
+        console.log(topRateUrl)
         getTopRateMovies(topRateUrl);
     }, []);
 
@@ -26,7 +27,8 @@ const Home = () => {
         <div className="container">
             <h2 className="title">Melhores filmes</h2>
             <div className="movies-container">
-                {topMovies.length > 0 && topMovies.map((movie) => <MovieCard key={movie.id} movie={movie}/>)}
+                {topMovies.length > 0 && 
+                topMovies.map((movie) => <MovieCard key={movie.id} movie={movie}/>)}
             </div>
         </div>
     );
