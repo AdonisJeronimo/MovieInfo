@@ -20,21 +20,6 @@
 }
 
 .movies-container div{
-    width: 30%;
-    color: #fff;
-    margin-bottom: 2.5rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    text-align: center;
-    background-color: #111;
-    padding: 1rem;
-    border-radius: 25px;
-    transition: 0.5s ease-in-out;
-    
-}
-
-.movies-container div{
     width: 22%;
     color: #fff;
     margin: 1rem;
@@ -42,7 +27,8 @@
     flex-direction: column;
     justify-content: space-between;
     text-align: center;
-    background-color: #111;
+    background-image: url(../../assets/bg1.jpg);
+    background-size: auto 100%;
     padding: 1rem;
     border-radius: 25px;
     transition: 0.5s ease-in-out;
@@ -69,16 +55,17 @@
 }
 
 .movies-container div a{
-    background-color: #00934F;
-    border: 2px solid #00934F;
+    background-color: #f7D354;
     border-radius: 4px;
     color: #000;
     padding: 1rem 0.5rem;
     align-items: center;
-    transition: 0.4s ease-in-out;
+    transition: 0.4s ease;
     font-weight: bold;
 }
 
-/* .movies-container div a:hover{
-    color:  #fff;
-} */
+.movies-container div a:hover{
+    background-color: #FCB149 ;
+    color: #fff;
+}
+

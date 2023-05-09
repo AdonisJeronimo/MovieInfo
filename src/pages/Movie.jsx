@@ -10,6 +10,7 @@ import {
 import MovieCard from "../components/MovieCard/movieCard";
 
 import "./css/Movie.css";
+import "./css/MovieResponsive.css";
 
 const moviesURL = import.meta.env.VITE_API;
 const apiKey = import.meta.env.VITE_API_KEY;

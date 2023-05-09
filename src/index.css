@@ -6,9 +6,10 @@
 }
 
 body {
-background: rgb(235,0,0);
-background: linear-gradient(85deg, rgba(235,0,0,1) 0%, rgba(0,0,0,1) 36%, rgba(0,0,0,1) 67%, rgba(0,162,229,1) 100%);
     color: #fff;
+    background-image: url(./assets/bg6.jpg);
+    background-size: 100%;
+    background-position: center center;
 }
 
 a{
