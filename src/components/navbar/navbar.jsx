@@ -3,6 +3,7 @@ import { Link, useNavigate } from "react-router-dom";
 import {BiCameraMovie, BiSearchAlt2} from "react-icons/bi"
 
 import "./navbar.css";
+import "./navbarResponsive.css";
 
 const Navbar = () => {
     const [search,setSearch] = useState("");

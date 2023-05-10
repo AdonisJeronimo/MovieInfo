@@ -1,0 +1,75 @@
+@media (max-width: 810px) {
+    .movie-page {
+        width: 80%;
+    }
+
+    .movie-page img {
+        width: 80%;
+    }
+
+    .info-budget p,
+    .info-income p {
+        font-weight: bold;
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 650px) {
+    .info-budget p,
+    .info-income p {
+        font-weight: bold;
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 550px) {
+    .movie-page .movie-card h2{
+        font-size: 1.5rem;
+    }
+
+    .info-money{
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 1.5em;
+      }
+
+    .info-budget svg,
+    .info-income svg,
+    .info-budget h3,
+    .info-income h3{
+        font-size: 1rem;
+    }
+
+    .info-budget p,
+    .info-income p {
+        font-weight: normal;
+        font-size: 1.0rem;
+    }
+
+    .description p {
+        font-size: 0.9rem;
+        line-height: 1.2rem;
+      }
+
+}
+
+@media (max-width: 400px) {
+    .movie-page .movie-card h2{
+        font-size: 1.2rem;
+    }
+
+    .tagline{
+        font-size: 1rem;
+    }
+
+    .info-budget p,
+    .info-income p {
+        font-size: 0.9rem;
+    }
+
+    .description p {
+        font-size: 0.9rem;
+        line-height: 1.2rem;
+      }
+
+}

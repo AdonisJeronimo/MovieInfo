@@ -11,20 +11,24 @@
         border-radius: 20px;
         margin: 0 auto;
         margin-bottom: 2rem;
-
     }
+}
 
     @media (max-width: 550px) {
         .movies-container div {
-            display: flex;
             width: 70%;
-            border-radius: 20px;
-            justify-content: center;
-            align-content: center;
-            background-color: red;
-            text-align: center;
-
         }
     }
 
-}
+    @media (max-width: 410px) {
+        .movies-container div {
+            width: 90%;
+        }
+    }
+
+    @media (max-width: 300px) {
+        .container .title{
+            font-size: 1.6rem;
+        }
+    }
+

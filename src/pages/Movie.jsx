@@ -44,18 +44,22 @@ const Movie = () => {
         <>
           <MovieCard movie={movie} showLink={false} />
           <p className="tagline">{movie.tagline}</p>
-          <div className="info">
+          <div className="info-money">
+            <div className="info-budget">
             <h3>
               <BsWallet2 /> Orçamento:
             </h3>
             <p>{formatCurrency(movie.budget)}</p>
-          </div>
-          <div className="info">
+            </div>
+
+            <div className="info-income">
             <h3>
               <BsGraphUp /> Receita:
             </h3>
             <p>{formatCurrency(movie.revenue)}</p>
+            </div>
           </div>
+          
           <div className="info">
             <h3>
               <BsHourglassSplit /> Duração:

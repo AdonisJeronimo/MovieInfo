@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+html{
+    min-width: 280px;
+}
+
 body {
     color: #fff;
     background-image: url(./assets/bg6.jpg);
@@ -20,3 +24,13 @@ a{
 a:hover{
     color: #b8930c;
 }
+
+/* RESPOSIVE */
+
+/* @media (max-width: 410px){
+    body{
+        background-image: url(./assets/bg6.jpg);
+        background-size: 100% auto;
+        background-position: center center;
+    }
+} */
